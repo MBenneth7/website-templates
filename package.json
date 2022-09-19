@@ -1,0 +1,23 @@
+{
+  "name": "website-templates",
+  "version": "1.0.0",
+  "description": "site for website template examples",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBenneth7/website-templates.git"
+  },
+  "author": "Mark Sayong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBenneth7/website-templates/issues"
+  },
+  "homepage": "https://github.com/MBenneth7/website-templates#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}
