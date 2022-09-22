@@ -1,9 +1,11 @@
 //NAVIGATION JS
 let menu = document.querySelector(".menu-container");
 let mobileNav = document.querySelector(".mobile-nav");
+let body = document.querySelector("body");
 
 menu.addEventListener("click",()=>{
     mobileNav.classList.toggle("nav-show");
+    body.classList.toggle("fixed");
 })
 
 
